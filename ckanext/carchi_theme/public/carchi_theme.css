@@ -1,0 +1,31 @@
+body {
+	background-color: #000;
+}
+
+.account-masthead {
+	background: #EB6F1F url("../../../base/images/bg.png") repeat scroll 0% 0%;
+}
+
+.account-masthead .account ul li a {
+	color: #fff;
+}
+
+.masthead {
+	background: #008639 url("../../../base/images/bg.png") repeat scroll 0% 0%;
+}
+
+.search-form .heading {
+	background-color: #008639;
+}
+
+.box .search-form {
+	background-color: #008639 !important;
+}
+
+.tags {
+	background-color: #000 !important;
+}
+
+.site-footer {
+	background: #000 url("../../../base/images/bg.png") repeat scroll 0% 0%;
+}

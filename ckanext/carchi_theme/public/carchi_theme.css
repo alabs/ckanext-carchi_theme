@@ -19,6 +19,10 @@ body {
 	min-height: 75px;
 }
 
+.hero {
+	background: transparent url("../../../base/images/background-tile.jpg") no-repeat 0% 0%;
+}
+
 .search-form .heading {
 	background-color: #008639;
 }

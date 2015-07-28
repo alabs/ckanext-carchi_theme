@@ -10,8 +10,13 @@ body {
 	color: #fff;
 }
 
+.masthead .container {
+	padding-top: 10px;
+}
+
 .masthead {
 	background: #008639 url("../../../base/images/bg.png") repeat scroll 0% 0%;
+	min-height: 75px;
 }
 
 .search-form .heading {

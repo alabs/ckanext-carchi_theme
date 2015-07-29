@@ -1,0 +1,29 @@
+{% ckan_extends %}
+
+{% block promoted %}
+	{% set intro = g.site_intro_text %}
+	
+	<div class="module-content box">
+	  <header>
+	    {% if intro %}
+	      {{ h.render_markdown(intro) }}
+	    {% else %}
+	      <h1 class="page-heading">Datos Abiertos de El Carchi</h1>
+	      <p>
+		Datos Abiertos El Carchi es la plataforma de datos abiertos de la Prefectura de El Carchi, basada en CKAN (plataforma libre de datos abiertos, líder a nivel mundial).
+	      </p>
+	    {% endif %}
+	  </header>
+	
+	  {% block home_image %}
+	    <section class="featured media-overlay hidden-phone">
+	      <h2 class="media-heading">{% block home_image_caption %}{{ _("This is a featured section") }}{% endblock %}</h2>
+	      {% block home_image_content %}
+	        <a class="media-image" href="#">
+	          <img src="{{ h.url_for_static('/base/images/placeholder-420x220.png') }}" alt="Placeholder" width="420" height="220" />
+	        </a>
+	      {% endblock %}
+	    </section>
+	  {% endblock %}
+	</div>
+{% endblock %}

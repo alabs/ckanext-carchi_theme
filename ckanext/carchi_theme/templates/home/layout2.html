@@ -17,9 +17,9 @@
 	
 	  {% block home_image %}
 	    <section class="featured media-overlay hidden-phone">
-	      <h2 class="media-heading">Leer más acerca de Datos Abiertos El Carchi</h2>
+	      <h2 class="media-heading"><a style="color:#fff;" href="{{ h.url_for(controller='home', action='about') }}">Leer más acerca de Datos Abiertos El Carchi</a></h2>
 	      {% block home_image_content %}
-	        <a class="media-image" href="#">
+	        <a class="media-image" href="{{ h.url_for(controller='home', action='about')  }}">
 	          <img src="{{ h.url_for_static('/imagen-portada.png') }}" alt="Placeholder" width="420" height="220" />
 	        </a>
 	      {% endblock %}

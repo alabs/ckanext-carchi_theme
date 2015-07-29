@@ -20,7 +20,7 @@ body {
 }
 
 .hero {
-	background: transparent url("../../../base/images/background-tile.png") no-repeat 0% 0%;
+	background: transparent url("/background-tile.jpg") no-repeat 0% 0%;
 }
 
 .search-form .heading {

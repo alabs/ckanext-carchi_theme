@@ -165,6 +165,12 @@ body {
 	margin-left: 3%;
 	text-transform: lowercase;
 }
+.homepage .module-search {
+	height: 175px;
+}
+.box {
+	height: 185px;
+}
 
 /* Footer */
 

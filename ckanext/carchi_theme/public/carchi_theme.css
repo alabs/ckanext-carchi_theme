@@ -13,7 +13,6 @@ body {
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-color: white;
-	width: 1170px;
 }
 
 .account-masthead {
@@ -261,16 +260,8 @@ footer #copyright .logo img{
 	clear:both
 }
 
-@media (min-width: 1050px) {
-	.homepage .hero > .container .groups {
-		width: 1050px;
-	}
-}
-
-@media (max-width: 1150px) {
-	.header_logos {
-		width: 100%;
-		max-width: 1170px;
-		overflow-x: hidden;
+@media (min-width: 1000px) {
+	#header_logos {
+		width: 1170px;
 	}
 }

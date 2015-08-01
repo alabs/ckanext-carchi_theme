@@ -260,8 +260,11 @@ footer #copyright .logo img{
 	clear:both
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
 	#header_logos {
 		width: 1170px;
+	}
+	.homepage .hero > .container .groups {
+		width: 1050px;
 	}
 }

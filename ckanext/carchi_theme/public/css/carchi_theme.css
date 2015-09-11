@@ -7,6 +7,10 @@ body {
 	min-height: 220px;
 }
 
+.js .image-upload #field-image-upload {
+  opacity: 1;
+}
+
 #header_logos {
 	padding: 20px 0px 5px;
 	background-image: url("/img/header-background.jpg");

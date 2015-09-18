@@ -9,6 +9,7 @@ body {
 
 .page-heading {
   text-align: center;
+  margin: 10px 15px 20px;
 }
 
 .js .image-upload #field-image-upload {
@@ -97,15 +98,15 @@ body {
 	margin-bottom: 20px;
 }
 .homepage .hero > .container .groups {
-	margin: 0 -1px;
 	height: 130px;
 	overflow: hidden;
+  margin-bottom: 20px;
 }
 .homepage .hero > .container .groups li {
 	display: block;
 	float: left;
 	text-align: center;
-	width: 155px;
+	width: 144px;
 	overflow: hidden;
 	border: solid 1px #eaeaeb;
 }
@@ -277,5 +278,6 @@ footer #copyright .logo img{
 	}
 	.homepage .hero > .container .groups {
 		width: 1050px;
+
 	}
 }

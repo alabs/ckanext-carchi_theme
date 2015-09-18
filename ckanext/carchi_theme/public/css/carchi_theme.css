@@ -7,6 +7,10 @@ body {
 	min-height: 220px;
 }
 
+.page-heading {
+  text-align: center;
+}
+
 .js .image-upload #field-image-upload {
   opacity: 1;
 }
@@ -30,6 +34,7 @@ body {
 
 .masthead {
 	min-height: 40px;
+  background: grey; 
 }
 
 .masthead .nav-collapse {

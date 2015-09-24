@@ -34,23 +34,23 @@ body {
 
 .masthead {
 	min-height: 40px;
-  background: grey; 
+  background: #b8c6cc; 
 }
 
 .masthead .nav-collapse {
-	padding-top: 0px;
+	padding-top:bor 0px;
 }
 
 .search-form .heading {
-	background-color: #008639;
+	background-color: #ea6f20;
 }
 
 .box .search-form {
-	background-color: #008639 !important;
+	background-color: #ef7820 !important;
 }
 
 .tags {
-	background-color: #000 !important;
+	background-color: #586175 !important;
 }
 
 /* Home */
@@ -67,6 +67,7 @@ body {
 .hero-second {
 	background: #EEE url("/img/background.png") repeat scroll 0% 0%;
 	font-size: 16px;
+	min-height: 650px !important;  /*Aumentado para  agrandar el scrool de la imagen de fondo*/
 	position: relative;
 	background-attachment: fixed;
 	background-position: center top;
@@ -116,10 +117,10 @@ body {
 	color: #EB6F1F;
 	height: 120px;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: normal;
 }
 .homepage .hero > .container .groups li a img {
-	height: 60px;
+	height: 109px; /* Cambio de tamaño para que solo se vea la imagen*/
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
@@ -184,10 +185,10 @@ body {
 /* Footer */
 
 footer{
-	background-image:url("/img/logo-footer.jpg");
+	background-image:url("#"); /* Quite la imagen de fondo /img/logo-footer.jpg*/
 	background-position:50% 25%;
 	background-repeat:no-repeat;
-	background-color:white;
+	background-color:b8c6cc;
 	padding:30px 0 0 0
 }
 
@@ -200,9 +201,9 @@ footer #site_links .nav-list{
 }
 
 footer #site_links .nav-list li a{
-	border-bottom:1px solid #ddd;
+	border-bottom:1px solid #b8c6cc;
 	font-size:.9em;
-	color:#008639;
+	color:#ea6e1f;
 	display:block;
 	margin:0;
 	padding:3px 0
@@ -215,8 +216,8 @@ footer #site_links .nav-list li a:hover{
 }
 
 footer #site_links .nav-list li.active a{
-	color:#008639;
-	background-color:#eeeeee
+	color:#ea6e1f;
+	background-color:#b8c6cc
 }
 
 footer .footer_title{

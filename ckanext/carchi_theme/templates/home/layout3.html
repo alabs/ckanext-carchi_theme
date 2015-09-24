@@ -1,0 +1,71 @@
+<div class="hero hero-first">
+    <div class="container">
+      <h1 class="page-heading">Datos Abiertos <span>El Carchi</span></h1>
+      <ul class="groups">
+        {% set groups = h.get_featured_groups() %}
+        {% for group in groups %}
+          {% set truncate=truncate or 0 %}
+          {% set truncate_title = truncate_title or 0 %}
+          {% set title = group.title or group.name %}
+          <li>
+            <a href="{{ h.url_for(controller='group', action='read', id=group.name) }}">
+              <img src="{{ group.image_display_url or h.url_for_static('/base/images/placeholder-group.png') }}" alt="{{ group.name }}" />
+              <p>
+                {{ group.title or group.name }}
+              </p>
+            </a>
+          </li>
+        {% endfor %}
+      <li class="more"><a title="ver más" href="/group"><i class="icon-plus-sign"></i><br>Ver más</a></li>
+      </ul>
+      <img src="/img/banner_home.png" alt=" Este es el repositorio de datos abiertos para el gobierno de la Prefectura de Carchi, Ecuador. Proporciona una forma sencilla de buscar, acceder y utilizar grupos de datos públicos.">
+    </div>
+</div>
+
+<div role="main" class="hero-second">
+  <div class="container">
+    <div class="row row1">
+      <div class="span6 col1">
+        {% block search %}
+          {% snippet 'home/snippets/search.html' %}
+        {% endblock %}
+      </div>
+      <div class="span6 col2">
+        {% block stats %}
+          {% snippet 'home/snippets/stats.html' %}
+        {% endblock %}
+	{#
+		{% block promoted %}
+		  {% snippet 'home/snippets/promoted.html' %}
+		{% endblock %}
+	#}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="hero hero-first">
+  <div class="container">
+    <div class="span12 col1">
+      {% snippet 'home/snippets/graph.html' %} 
+    </div>
+  </div>
+</div>
+
+<div role="main">
+  <div class="container">
+    <div class="row row2">
+      <div class="span12 col2">
+        {% block featured_organization %}
+          {% snippet 'home/snippets/featured_organization.html' %}
+        {% endblock %}
+      </div>
+      <div class="span12 col1">
+        {% block featured_group %}
+          {% snippet 'home/snippets/featured_group.html' %}
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+</div>
+

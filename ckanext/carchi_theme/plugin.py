@@ -20,9 +20,9 @@ class Carchi_ThemePlugin(plugins.SingletonPlugin):
 
     def update_config(self, config_):
         toolkit.add_template_directory(config_, 'templates')
-        toolkit.add_template_directory(config_, 'i18n')
         toolkit.add_public_directory(config_, 'public')
-        toolkit.add_resource('fanstatic', 'carchi_theme')
+        toolkit.add_public_directory(config_, 'public')
+        toolkit.add_resource('i18n', 'carchi_theme')
 
     def get_helpers(self):
         '''Register the most_popular_groups() function above as a template

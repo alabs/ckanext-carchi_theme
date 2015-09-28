@@ -1,6 +1,5 @@
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
-from ckan.lib.plugins import DefaultTranslation
 
 def most_popular_groups():
     '''Return a sorted list of the groups with the most datasets.'''
@@ -15,9 +14,8 @@ def most_popular_groups():
 
     return groups
 
-class Carchi_ThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
+class Carchi_ThemePlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
-    plugins.implements(plugins.ITranslation)
     plugins.implements(plugins.ITemplateHelpers)
 
     def update_config(self, config_):

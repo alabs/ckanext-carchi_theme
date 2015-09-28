@@ -1,0 +1,37 @@
+# Translations template for ckanext-contact.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the ckanext-contact
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-contact 0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-09-28 11:32-0500\n"
+"PO-Revision-Date: 2015-09-28 11:36-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_419\n"
+"X-Generator: Poedit 1.7.5\n"
+
+#: ckanext/contact/controllers/contact.py:41
+msgid "Not authorized to use contact form"
+msgstr "No está autorizado a utilizar este formulario de contacto. "
+
+#: ckanext/contact/controllers/contact.py:52
+msgid "Not authorized to see this page"
+msgstr "No está autorizado a ver esta página."
+
+#: ckanext/contact/controllers/contact.py:54
+msgid "Bad Captcha. Please try again."
+msgstr "Mal Captcha. Por favor rellénelo de nuevo. "
+
+#: ckanext/contact/controllers/contact.py:92
+msgid "Sorry, there was an error sending the email. Please try again later"
+msgstr "Lo sentimos, hubo un error enviando este mail. Por favor vuélvalo a intentarlo más tarde."

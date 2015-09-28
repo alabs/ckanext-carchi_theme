@@ -2,7 +2,7 @@
     <div class="container">
       <h1 class="page-heading">Datos Abiertos <span>El Carchi</span></h1>
       <ul class="groups">
-        {% set groups = h.get_featured_groups() %}
+        {% set groups = h.carchi_theme_most_popular_groups() %}
         {% for group in groups %}
           {% set truncate=truncate or 0 %}
           {% set truncate_title = truncate_title or 0 %}
@@ -22,6 +22,38 @@
     </div>
 </div>
 
+<div role="main" class="hero-first">
+  <div class="container">
+    <div class="row row1">
+      <div class="span6 col1">
+        <div class="box">
+          <header class="module-heading">
+            <h3>Actividad reciente</h3>
+          </header>
+          <div class="module-content">
+            {{ h.recently_changed_packages_activity_stream(limit=4) }}
+          </div>
+        </div>
+      </div>
+      <div class="span6 col1">
+        <div class="box">
+          <header class="module-heading">
+            <h3>Comunicación</h3>
+          </header>
+          <div class="module-content">
+            <div class="list-group">
+              <a class="list-group-item" href="/pages/aplicaciones">Ver aplicaciones o conjuntos de datos generados por cualquier actor del Plan Nacional de Gobierno Electrónico</a>
+              <a class="list-group-item" href="/contact">Dar opinión ciudadanas sobre los datos abiertos o pedir nuevos conjuntos de datos nunevos.</a>
+              <a class="list-group-item" href="{{ h.url_for('blog_index') }}">Ver espacio de comunicación de novedades</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <div role="main" class="hero-second">
   <div class="container">
     <div class="row row1">
@@ -34,11 +66,11 @@
         {% block stats %}
           {% snippet 'home/snippets/stats.html' %}
         {% endblock %}
-	{#
-		{% block promoted %}
-		  {% snippet 'home/snippets/promoted.html' %}
-		{% endblock %}
-	#}
+  {#
+    {% block promoted %}
+      {% snippet 'home/snippets/promoted.html' %}
+    {% endblock %}
+  #}
       </div>
     </div>
   </div>
@@ -52,7 +84,7 @@
   </div>
 </div>
 
-<div role="main">
+<div role="main" class="hero hero-second">
   <div class="container">
     <div class="row row2">
       <div class="span6 col2">
@@ -68,4 +100,3 @@
     </div>
   </div>
 </div>
-

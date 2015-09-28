@@ -79,5 +79,15 @@ setup(
     entry_points='''
         [ckan.plugins]
         carchi_theme=ckanext.carchi_theme.plugin:Carchi_ThemePlugin
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
     ''',
+
+    message_extractors={
+        'ckanext': [
+            ('**.py', 'python', None),
+            ('**.js', 'javascript', None),
+            ('**/templates/**.html', 'ckan', None),
+        ],
+    }
 )

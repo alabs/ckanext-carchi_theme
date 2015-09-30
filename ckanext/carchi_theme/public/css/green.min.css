@@ -6831,7 +6831,8 @@ textarea{
 	-webkit-transition:color 0.2s ease-in;
 	-moz-transition:color 0.2s ease-in;
 	-o-transition:color 0.2s ease-in;
-	transition:color 0.2s ease-in
+	transition:color 0.2s ease-in;
+	display:none /*Se oculto  la lupa del buscador*/
 }
 
 .simple-input .field .btn-search:hover{
@@ -9002,7 +9003,8 @@ h1 small,h2 small,h3 small,h4 small{
 	*zoom:1;
 	min-height:30px;
 	color:#ffffff;
-	background:#237434 url("../../../base/images/bg.png")
+	background:#ea6e1f url("../../../base/images/bg.png");
+	display: none
 }
 
 .account-masthead:before,.account-masthead:after{
@@ -9036,7 +9038,7 @@ h1 small,h2 small,h3 small,h4 small{
 .account-masthead .account ul li{
 	display:block;
 	float:left;
-	border-left:1px solid #1d602b
+	/*border-left:1px solid #1d602b Se oculto para que se quite el borde izquierdo de Iniciar sesión */
 }
 
 .account-masthead .account ul li a{
@@ -9053,8 +9055,8 @@ h1 small,h2 small,h3 small,h4 small{
 }
 
 .account-masthead .account ul li a:hover{
-	color:#e0f0e3;
-	background-color:#1d602b;
+	color:#ef771f;
+	background-color:#586175;
 	text-decoration:none
 }
 
@@ -9159,7 +9161,7 @@ h1 small,h2 small,h3 small,h4 small{
 }
 
 .masthead .navigation{
-	margin-right:20px
+	margin-right:-21px /*Se cambio para ajustar el encabezado al boton de inicio de la barra principal*/
 }
 
 .masthead .navigation .nav-pills{
@@ -9167,7 +9169,7 @@ h1 small,h2 small,h3 small,h4 small{
 }
 
 .masthead .navigation .nav-pills li a:hover,.masthead .navigation .nav-pills li.active a{
-	background-color:#237434
+	background-color:#ea6e1f
 }
 
 .masthead .nav>li>a,.masthead .nav>li>a:focus,.masthead .nav>li>a:hover,.masthead .nav>.active>a,.masthead .nav>.active>a:hover,.masthead .nav>.active>a:focus{
@@ -9182,6 +9184,7 @@ h1 small,h2 small,h3 small,h4 small{
 .masthead .site-search input{
 	width:200px;
 	padding:4px 10px
+	display: none; /* Se oculto la barra de busqueda de la pagina principal*/
 }
 
 .masthead .btn-navbar,.masthead .btn-navbar:hover,.masthead .btn-navbar:focus,.masthead .btn-navbar:active,.masthead .btn-navbar.active,.masthead .btn-navbar.disabled,.masthead .btn-navbar[disabled]{
@@ -10140,7 +10143,7 @@ iframe{
 
 .ie8 [role=main],.ie7 [role=main],.ie8 .main,.ie7 .main{
 	padding-top:10px;
-	background:#eeeeee url("../../../base/images/bg.png")
+	background:#ffffff url("../../../base/images/bg.png")
 }
 
 .ie8 .hero,.ie7 .hero{

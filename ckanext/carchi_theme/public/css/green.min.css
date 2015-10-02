@@ -9000,7 +9000,7 @@ h1 small,h2 small,h3 small,h4 small{
 
 @media (min-width:768px){
 	.homepage [role=main]{
-		padding:20px 0
+		padding:150px 0
 	}
 
 	.homepage.layout-1 .row1 .col2{
@@ -9201,7 +9201,7 @@ h1 small,h2 small,h3 small,h4 small{
 
 .masthead .site-search input{
 	width:200px;
-	padding:4px 10px
+	padding:4px 10px;
 	display: none; /* Se oculto la barra de busqueda de la pagina principal*/
 }
 

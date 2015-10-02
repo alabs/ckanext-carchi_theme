@@ -61,13 +61,13 @@ body {
 
 .hero-first {
 	background-image: none;
-	padding: 20px 0;
+	padding: 70px 0; /*Aumentado entre el encabezado y el cuerpo del texto*/
 }
 
 .hero-second {
 	background: #EEE url("/img/background.png") repeat scroll 0% 0%;
 	font-size: 16px;
-	min-height: 650px !important;  /*Aumentado para  agrandar el scrool de la imagen de fondo*/
+	min-height: 350px !important;  /*Aumentado para  agrandar el scrool de la imagen de fondo*/
 	position: relative;
 	background-attachment: fixed;
 	background-position: center top;
@@ -185,10 +185,9 @@ body {
 /* Footer */
 
 footer{
-	background-image:url("#"); /* Quité la imagen de fondo /img/logo-footer.jpg*/
+	background-color: #acb6b9; /* Quité la imagen de fondo /img/logo-footer.jpg*/
 	background-position:50% 25%;
 	background-repeat:no-repeat;
-	background-color:b8c6cc;
 	padding:30px 0 0 0
 }
 
@@ -201,7 +200,7 @@ footer #site_links .nav-list{
 }
 
 footer #site_links .nav-list li a{
-	border-bottom:1px solid #b8c6cc;
+	border-bottom:1px solid #dce0e0;
 	font-size:.9em;
 	color:#ffffff;
 	display:block;
@@ -246,7 +245,7 @@ footer #banners .item img{
 }
 
 footer #copyright{
-	text-align:center;
+	text-align:left;
 	padding:10px 0;
 	border-top:1px solid #ededed
 }

@@ -1,6 +1,6 @@
 body {
 	background-color: white;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Century Gothic', sans-serif;
 }
 
 [role="main"] {
@@ -16,11 +16,11 @@ body {
 }
 
 #header_logos {
-	padding: 20px 0px 5px;
+	padding: 50px 8%;  /*Se cambio para mover el logo un poco a la derecha*/
 	background-image: url("/img/header-background.jpg");
 	background-position: right center;
 	background-repeat: no-repeat;
-	background-color: white;
+	background-color: #FFFFFF; /*Se cambio de blanco a naranja*/
 }
 
 .account-masthead .account ul li a {
@@ -34,23 +34,23 @@ body {
 
 .masthead {
 	min-height: 40px;
-  background: grey; 
+  background: #b8c6cc; 
 }
 
 .masthead .nav-collapse {
-	padding-top: 0px;
+	padding-top:bor 0px;
 }
 
 .search-form .heading {
-	background-color: #008639;
+	background-color: #ea6f20;
 }
 
 .box .search-form {
-	background-color: #008639 !important;
+	background-color: #ef7820 !important;
 }
 
 .tags {
-	background-color: #000 !important;
+	background-color: #586175 !important;
 }
 
 /* Home */
@@ -67,6 +67,7 @@ body {
 .hero-second {
 	background: #EEE url("/img/background.png") repeat scroll 0% 0%;
 	font-size: 16px;
+	min-height: 650px !important;  /*Aumentado para  agrandar el scrool de la imagen de fondo*/
 	position: relative;
 	background-attachment: fixed;
 	background-position: center top;
@@ -107,7 +108,7 @@ body {
 	text-align: center;
 	width: 144px;
 	overflow: hidden;
-	border: solid 1px #eaeaeb;
+	border: solid 1px #FFFFFF;
 }
 .homepage .hero > .container .groups li a {
 	display: block;
@@ -116,10 +117,10 @@ body {
 	color: #EB6F1F;
 	height: 120px;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: normal;
 }
 .homepage .hero > .container .groups li a img {
-	height: 60px;
+	height: 109px; /* Cambio de tamaño para que solo se vea la imagen*/
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
@@ -131,16 +132,16 @@ body {
 	height: 120px;
 }
 .homepage .hero > .container .groups li.more a {
-	padding: 38px 10px 0 10px;
-	line-height: 14px;
+	padding: 50px 10px 0 10px;
+	line-height: 19px;
 	text-transform: capitalize;
 	font-weight: normal;
-	color: rgba(52, 52, 52, 0.6);
+	color: #FFFFFF;
 	font-size: 12px;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: #B8C6CC;
 }
 .homepage .hero > .container .groups li.more a:hover {
-	color: #343434;
+	color: #ef771f;
 }
 .homepage .intro {
 	font-size: 16px;
@@ -184,10 +185,10 @@ body {
 /* Footer */
 
 footer{
-	background-image:url("/img/logo-footer.jpg");
+	background-image:url("#"); /* Quité la imagen de fondo /img/logo-footer.jpg*/
 	background-position:50% 25%;
 	background-repeat:no-repeat;
-	background-color:white;
+	background-color:b8c6cc;
 	padding:30px 0 0 0
 }
 
@@ -200,9 +201,9 @@ footer #site_links .nav-list{
 }
 
 footer #site_links .nav-list li a{
-	border-bottom:1px solid #ddd;
+	border-bottom:1px solid #b8c6cc;
 	font-size:.9em;
-	color:#008639;
+	color:#ffffff;
 	display:block;
 	margin:0;
 	padding:3px 0
@@ -211,18 +212,18 @@ footer #site_links .nav-list li a{
 footer #site_links .nav-list li a:hover{
 	background-color:transparent;
 	text-decoration:none;
-	color:#ff3105
+	color:#586175
 }
 
 footer #site_links .nav-list li.active a{
-	color:#008639;
-	background-color:#eeeeee
+	color:#ea6e1f;
+	background-color:#b8c6cc
 }
 
 footer .footer_title{
 	border-bottom:1px solid #ccc;
 	padding-bottom:5px;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Century Gothic, sans-serif;
 	font-size:14px;
 	font-weight:bold;
 	line-height:inherit
@@ -235,7 +236,8 @@ footer #banners{
 footer #banners .item{
 	margin-top:15px;
 	margin-bottom:10px;
-	text-align:left
+	text-align:left;
+	display:none /*Se ocultó para quitar los iconos del footer*/
 }
 
 footer #banners .item img{
@@ -251,12 +253,14 @@ footer #copyright{
 
 footer #copyright .copyright{
 	float:left;
-	font-size:12px
+	font-size:12px;
+	color: #FFF
 }
 
 footer #copyright .powered_by{
 	float:right;
-	font-size:12px
+	font-size:12px;
+	color: #FFF
 }
 
 footer #copyright .logo{
@@ -268,12 +272,13 @@ footer #copyright .logo span{
 }
 
 footer #copyright .logo img{
-	clear:both
+	clear:both;
+	display:none
 }
 
 @media (min-width: 1200px) {
 	#header_logos {
-		width: 1170px;
+		width: 1570px; /*Se cambio de 1170, para que el encabezado pueda ocupar toda la pantalla*/
 	}
 	.homepage .hero > .container .groups {
 		width: 1050px;

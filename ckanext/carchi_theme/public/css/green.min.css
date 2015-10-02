@@ -5824,7 +5824,7 @@ a.tag:hover{
 	padding:7px 25px;
 	font-size:14px;
 	line-height:1.3;
-	background-color:#f6f6f6;
+	background-color:#008bc5;
 	border-top:1px solid #dddddd;
 	border-bottom:1px solid #dddddd
 }
@@ -5862,14 +5862,22 @@ a.tag:hover{
 }
 
 .module-content>:last-child{
-	margin-bottom:0
+	margin-bottom:0;
+	text-align: justify; /*Se aumento para que se justifique el texto en organizaciones*/
+	font-size: x-small /*Se aumento para que se justifique el texto en organizaciones*/
 }
 
 .module:first-child .module-heading{
-	-webkit-border-radius:3px 0 0 0;
+	-webkit-border-radius:0px 0 0 0;
+	-moz-border-radius:0px 0 0 0;
+	border-radius:0px 0 0 0;
+	border-top-width:0
+	
+/*	-webkit-border-radius:3px 0 0 0;
 	-moz-border-radius:3px 0 0 0;
 	border-radius:3px 0 0 0;
-	border-top-width:0
+	border-top-width:0*/
+	
 }
 
 .module:last-child{
@@ -5964,8 +5972,14 @@ a.tag:hover{
 }
 
 .module-narrow .module-heading,.module-narrow .module-content,.module-narrow .module-footer{
-	padding-left:15px;
-	padding-right:15px
+	/*padding-left:15px;
+	padding-right:15px Se cambio para de jar mas espacio del padding*/ 
+	
+	padding-left: 25px;
+padding-right: 20px;
+padding-top: 20px;
+padding-bottom: 20px
+
 }
 
 .module-grid{
@@ -6213,7 +6227,7 @@ a.tag:hover{
 	left:0;
 	right:0;
 	bottom:0;
-	border:1px solid #dddddd;
+	border:0px solid #dddddd; /*Se cambió para quitar los bordes de las imagenenes de los grupos*/
 	overflow:hidden;
 	-webkit-transition:all 0.2s ease-in;
 	-moz-transition:all 0.2s ease-in;
@@ -6225,10 +6239,10 @@ a.tag:hover{
 }
 
 .media-view:hover,.media-view.hovered{
-	border-color:#2f9b45;
+	border-color:#008bc5;
 	-webkit-box-shadow:0 0 0 4px rgba(0,0,0,0.1);
 	-moz-box-shadow:0 0 0 4px rgba(0,0,0,0.1);
-	box-shadow:0 0 0 4px rgba(0,0,0,0.1)
+	box-shadow:0 0 0 1px rgba(0,0,0,0.1)
 }
 
 .media-view:hover .banner,.media-view.hovered .banner{
@@ -7797,8 +7811,11 @@ textarea{
 }
 
 .search-form .search-input.search-giant input{
-	font-size:16px;
-	padding:15px
+/*	font-size:16px;
+	padding:15px se quitó */
+	
+	font-size:1px;
+	padding:12px
 }
 
 .search-form .search-input.search-giant button{
@@ -8518,7 +8535,8 @@ h1 small,h2 small,h3 small,h4 small{
 }
 
 .btn [class^="icon-"],.nav [class^="icon-"],.module-heading [class^="icon-"],.dropdown [class^="icon-"],.btn [class*=" icon-"],.nav [class*=" icon-"],.module-heading [class*=" icon-"],.dropdown [class*=" icon-"]{
-	margin-right:4px
+	margin-right:4px;
+	display: none /*Se oculto para eliminar el ícono*/
 }
 
 .info-block [class^="icon-"],.info-block [class*=" icon-"]{
@@ -8550,7 +8568,7 @@ h1 small,h2 small,h3 small,h4 small{
 	border-radius:4px;
 	-webkit-box-shadow:0 0 0 4px rgba(0,0,0,0.05);
 	-moz-box-shadow:0 0 0 4px rgba(0,0,0,0.05);
-	box-shadow:0 0 0 4px rgba(0,0,0,0.05);
+	box-shadow:0 0 0 0px rgba(0,0,0,0.05);
 	position:relative;
 	background-color:#fff;
 	margin-bottom:20px;

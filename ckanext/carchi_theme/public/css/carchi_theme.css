@@ -67,7 +67,6 @@ body {
 .hero-second {
 	background: #EEE url("/img/background.png") repeat scroll 0% 0%;
 	font-size: 16px;
-	min-height: 350px !important;  /*Aumentado para  agrandar el scrool de la imagen de fondo*/
 	position: relative;
 	background-attachment: fixed;
 	background-position: center top;

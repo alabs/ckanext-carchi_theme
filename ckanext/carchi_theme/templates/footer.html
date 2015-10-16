@@ -1,12 +1,12 @@
 <footer>
   <div id="site_links" class="container donotprint">
     <div class="row-fluid">
-      <div class="span6">
+      <div class="span3">
         <h2 class="footer_title">EL CARCHI</h2>
         <div class="row-fluid">
           <ul class="nav nav-list span6">
             <li><a href="/dataset">Conjunto de datos</a></li>
-            <li><a href="/organizations">Organizaciones</a></li>
+            <li><a href="/organization">Organizaciones</a></li>
             <li><a href="/groups">Grupos</a></li>
           </ul>
           <ul class="nav nav-list span6">
@@ -15,12 +15,35 @@
         </div>
       </div>
       <div class="span3">
-        <h2 class="footer_title">ÁREAS</h2>  
+        <h2 class="footer_title">ORGANIZACIONES</h2>  
         <ul class="nav nav-list">
-        	<li><a href="#">Inicio</a></li>
-            <li><a href="#">Open Data</a></li>
-            <li><a href="#">Grupos</a></li>
-            <li><a href="#">Acerca del proyecto</a></li>
+        {% set organizations = h.carchi_theme_all_organizations() %}
+        {% for org in organizations %}
+          {% set truncate=truncate or 0 %}
+          {% set truncate_title = truncate_title or 0 %}
+          {% set title = org.title or org.name %}
+          <li>
+            <a href="{{ h.url_for(controller='organization', action='read', id=org.name) }}">
+                {{ org.title or org.name }}
+            </a>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+      <div class="span3">
+        <h2 class="footer_title">GRUPOS</h2>  
+        <ul class="nav nav-list">
+        {% set groups = h.carchi_theme_all_groups() %}
+        {% for group in groups %}
+          {% set truncate=truncate or 0 %}
+          {% set truncate_title = truncate_title or 0 %}
+          {% set title = group.title or group.name %}
+          <li>
+            <a href="{{ h.url_for(controller='group', action='read', id=group.name) }}">
+                {{ group.title or group.name }}
+            </a>
+          </li>
+        {% endfor %}
         </ul>
       </div>
       <div class="span3">

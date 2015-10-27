@@ -16,11 +16,13 @@ body {
 }
 
 #header_logos {
-	padding: 50px 8%;  /*Se cambio para mover el logo un poco a la derecha*/
+	padding: 50px 0px;  /*Se cambio para mover el logo un poco a la derecha*/
 	background-image: url("/img/header-background.jpg");
-	background-position: right center;
+	background-position: left center;
 	background-repeat: no-repeat;
 	background-color: #FFFFFF; /*Se cambio de blanco a naranja*/
+	background-size: cover;
+	width: 100%;
 }
 
 .account-masthead .account ul li a {
@@ -272,14 +274,4 @@ footer #copyright .logo span{
 footer #copyright .logo img{
 	clear:both;
 	display:none
-}
-
-@media (min-width: 1200px) {
-	#header_logos {
-		width: 1570px; /*Se cambio de 1170, para que el encabezado pueda ocupar toda la pantalla*/
-	}
-	.homepage .hero > .container .groups {
-		width: 1050px;
-
-	}
 }

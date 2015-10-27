@@ -1,4 +1,4 @@
-<div class="hero hero-second">
+<!-- div class="hero hero-second">
     <div class="container">
       <h1 class="page-heading">Datos Abiertos <span>El Carchi</span></h1>
       <ul class="groups">
@@ -16,6 +16,64 @@
             </a>
           </li>
         {% endfor %}
+      <li class="more"><a title="ver más" href="/group"><i class="icon-plus-sign"></i><br>Ver más</a></li>
+      </ul>
+      <img src="/img/banner_home.png" alt=" Este es el repositorio de datos abiertos para el gobierno de la Prefectura de Carchi, Ecuador. Proporciona una forma sencilla de buscar, acceder y utilizar grupos de datos públicos.">
+    </div>
+</div -->
+
+<div class="hero hero-first">
+    <div class="container">
+      <h1 class="page-heading">Datos Abiertos <span>El Carchi</span></h1>
+      <ul class="groups">
+        <li>
+          <a href="/group/demograficos" title="Ver Población y Demografía">
+            <img src="/img/logos/groups/demografia.png" alt="Población y Demografía">
+            <p>
+              Población y Demografía
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="/group/economia" title="Ver Economía Laboral">
+            <img src="/img/logos/groups/economia.png" alt="Actividad Economía Laboral">
+            <p>
+              Economía Laboral 
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="/group/educacion" title="Ver Turismo">
+            <img src="/img/logos/groups/turismo.png" alt="Turismo">
+            <p>
+              Turismo
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="/group/infraestructura-y-obra-publica" title="Ver Infraestructura Vial">
+            <img src="/img/logos/groups/infraestructura.png" alt="Infraestructura Vial">
+            <p>
+              Infraestructura Vial
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="/group/medio-ambiente" title="Ver Medioambiente">
+            <img src="/img/logos/groups/medioambiente.png" alt="Medioambiente">
+            <p>
+              Medioambiente
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="/group/sociales" title="Ver Sociales">
+            <img src="/img/logos/groups/sociales.png" alt="Estadísticas Sociales">
+            <p>
+              Estadísticas Sociales
+            </p>
+          </a>
+        </li>
       <li class="more"><a title="ver más" href="/group"><i class="icon-plus-sign"></i><br>Ver más</a></li>
       </ul>
       <img src="/img/banner_home.png" alt=" Este es el repositorio de datos abiertos para el gobierno de la Prefectura de Carchi, Ecuador. Proporciona una forma sencilla de buscar, acceder y utilizar grupos de datos públicos.">
@@ -42,8 +100,9 @@
           </header>
           <div class="module-content">
             <div class="list-group">
-              <a class="list-group-item" href="/pages/aplicaciones">Ver aplicaciones o conjuntos de datos generados por cualquier actor del Plan Nacional de Gobierno Electrónico</a>
-              <a class="list-group-item" href="/contact">Dar opinión ciudadanas sobre los datos abiertos o pedir nuevos conjuntos de datos nunevos.</a>
+              <a class="list-group-item" href="/contact">Dar opinión ciudadanas sobre los datos abiertos</a>
+              <a class="list-group-item" href="/contact">Pedir nuevos conjuntos de datos nuevos</a>
+              <a class="list-group-item" href="/pages/aplicaciones">Ver aplicaciones</a>
               <a class="list-group-item" href="{{ h.url_for('blog_index') }}">Ver espacio de comunicación de novedades</a>
             </div>
           </div>

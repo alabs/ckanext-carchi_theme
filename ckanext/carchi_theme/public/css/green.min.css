@@ -5963,22 +5963,20 @@ a.tag:hover{
 }
 
 .module-shallow .module-content:first-child{
-	padding-top:10px
+       padding-top:10px
 }
 
 .module-shallow .module-content:last-child{
-	padding-bottom:10px
+       padding-bottom:10px
 }
 
 .module-narrow .module-heading,.module-narrow .module-content,.module-narrow .module-footer{
-	/*padding-left:15px;
-	padding-right:15px Se cambio para de jar mas espacio del padding*/ 
-	
+       /*padding-left:15px;
+       padding-right:15px Se cambio para de jar mas espacio del padding*/ 
 	padding-left: 25px;
-padding-right: 20px;
-padding-top: 20px;
-padding-bottom: 20px
-
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px
 }
 
 .module-grid{
@@ -8726,7 +8724,7 @@ h1 small,h2 small,h3 small,h4 small{
 }
 
 @media (min-width:768px){
-	.hero{
+	.hero-second{
 		background: #EEE url("/img/background.png") repeat fixed center top / cover
 	}
 

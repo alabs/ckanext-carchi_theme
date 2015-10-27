@@ -63,7 +63,7 @@ body {
 
 .hero-first {
 	background-image: none;
-	padding: 70px 0; /*Aumentado entre el encabezado y el cuerpo del texto*/
+	padding: 25px 0; /*Aumentado entre el encabezado y el cuerpo del texto*/
 }
 
 .hero-second {
@@ -109,11 +109,9 @@ body {
 	text-align: center;
 	width: 144px;
 	overflow: hidden;
-	border: solid 1px #FFFFFF;
 }
 .homepage .hero > .container .groups li a {
 	display: block;
-	background-color: rgba(255, 255, 255, 0.8);
 	text-decoration: none;
 	color: #EB6F1F;
 	height: 120px;
@@ -275,3 +273,13 @@ footer #copyright .logo img{
 	clear:both;
 	display:none
 }
+
+@media (min-width: 1200px) {
+       .homepage .hero > .container .groups {
+               width: 1050px;
+
+       }
+}
+
+
+

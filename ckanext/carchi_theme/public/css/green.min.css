@@ -9114,7 +9114,7 @@ h1 small,h2 small,h3 small,h4 small{
 	*zoom:1;
 	min-height:55px;
 	color:#ffffff;
-	background:#EF7820 url("../../../base/images/bg.png")
+	background:#666666 url("../../../base/images/bg.png")
 }
 
 .masthead:before,.masthead:after{
@@ -9172,7 +9172,8 @@ h1 small,h2 small,h3 small,h4 small{
 
 .masthead .navigation .nav-pills{
 	color: #fff;
-	margin-bottom:0
+	margin-bottom:0;
+	margin-right: 40px;
 }
 
 .masthead .navigation .nav-pills li a:hover,.masthead .navigation .nav-pills li.active a {

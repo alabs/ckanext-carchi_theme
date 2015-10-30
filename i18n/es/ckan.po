@@ -249,7 +249,7 @@ msgstr "Grupo no encontrado"
 
 #: ckan/controllers/feed.py:234 ckan/controllers/group.py:364
 msgid "Organization not found"
-msgstr "Organización no encontrada."
+msgstr "Departamento no encontrado."
 
 #: ckan/controllers/group.py:172
 msgid "Incorrect group type"
@@ -273,7 +273,7 @@ msgstr "No estás autorizado para leer el grupo %s"
 #: ckan/templates/organization/read_base.html:6
 #: ckan/templates/package/base.html:14
 msgid "Organizations"
-msgstr "Organizaciones"
+msgstr "Departamentos"
 
 #: ckan/controllers/group.py:286 ckan/controllers/home.py:71
 #: ckan/controllers/package.py:242 ckan/lib/helpers.py:682
@@ -344,7 +344,7 @@ msgstr "No estás autorizado para borrar el grupo %s"
 
 #: ckan/controllers/group.py:609
 msgid "Organization has been deleted."
-msgstr "La Organización ha sido borrada."
+msgstr "El Departamento ha sido borrada."
 
 #: ckan/controllers/group.py:611
 msgid "Group has been deleted."
@@ -870,7 +870,7 @@ msgstr "{actor} actualizó el grupo {group}"
 
 #: ckan/lib/activity_streams.py:70
 msgid "{actor} updated the organization {organization}"
-msgstr "{actor} actualizó la organización {organization}"
+msgstr "{actor} actualizó el departamento {organization}"
 
 #: ckan/lib/activity_streams.py:73
 msgid "{actor} updated the dataset {dataset}"
@@ -904,7 +904,7 @@ msgstr "{actor} borró el grupo {group}"
 
 #: ckan/lib/activity_streams.py:95
 msgid "{actor} deleted the organization {organization}"
-msgstr "{actor} borró la organización {organization}"
+msgstr "{actor} borró el departamento {organization}"
 
 #: ckan/lib/activity_streams.py:98
 msgid "{actor} deleted the dataset {dataset}"
@@ -924,7 +924,7 @@ msgstr "{actor} creó el grupo {group}"
 
 #: ckan/lib/activity_streams.py:111
 msgid "{actor} created the organization {organization}"
-msgstr "{actor} creó la organización {organization}"
+msgstr "{actor} creó el departamento {organization}"
 
 #: ckan/lib/activity_streams.py:114
 msgid "{actor} created the dataset {dataset}"
@@ -1295,19 +1295,19 @@ msgstr "No se puede parsear como un JSON válido"
 
 #: ckan/logic/validators.py:30 ckan/logic/validators.py:39
 msgid "A organization must be supplied"
-msgstr "Se debe proporcionar una organización"
+msgstr "Se debe proporcionar un departamento"
 
 #: ckan/logic/validators.py:43
 msgid "You cannot remove a dataset from an existing organization"
-msgstr "No puede borrar un conjunto de datos de una organización existente"
+msgstr "No puede borrar un conjunto de datos de un departamento existente"
 
 #: ckan/logic/validators.py:48
 msgid "Organization does not exist"
-msgstr "Organización no existe"
+msgstr "Departamento no existe"
 
 #: ckan/logic/validators.py:53
 msgid "You cannot add a dataset to this organization"
-msgstr "No es posible agregar un conjunto de datos a esta organización"
+msgstr "No es posible agregar un conjunto de datos a este departamento"
 
 #: ckan/logic/validators.py:93
 msgid "Invalid integer"
@@ -1501,7 +1501,7 @@ msgstr "rol no existe."
 
 #: ckan/logic/validators.py:754
 msgid "Datasets with no organization can't be private."
-msgstr "Los conjuntos de datos sin organización no pueden ser privados."
+msgstr "Los conjuntos de datos sin departamento no pueden ser privados."
 
 #: ckan/logic/validators.py:760
 msgid "Not a list"
@@ -1548,7 +1548,7 @@ msgstr "API REST: Crear objecto miembro %s"
 
 #: ckan/logic/action/create.py:772
 msgid "Trying to create an organization as a group"
-msgstr "Intentando crear una organización como un grupo"
+msgstr "Intentando crear un departamento como un grupo"
 
 #: ckan/logic/action/create.py:859
 msgid "You must supply a package id or name (parameter \"package\")."
@@ -1678,7 +1678,7 @@ msgstr "No se ha encontrado TaskStatus."
 
 #: ckan/logic/action/update.py:1180
 msgid "Organization was not found."
-msgstr "Organización no encontrada."
+msgstr "Departamento no encontrada."
 
 #: ckan/logic/auth/create.py:25 ckan/logic/auth/create.py:43
 #, python-format
@@ -1694,8 +1694,8 @@ msgstr "El usuario %s no está autorizado para editar estos grupos"
 #, python-format
 msgid "User %s not authorized to add dataset to this organization"
 msgstr ""
-"El usuario %s no está autorizado para crear conjuntos de datos en esta "
-"organización"
+"El usuario %s no está autorizado para crear conjuntos de datos en este "
+"departamento"
 
 #: ckan/logic/auth/create.py:58
 msgid "You must be a sysadmin to create a featured related item"
@@ -1738,7 +1738,7 @@ msgstr "El usuario %s no está autorizado para crear grupos"
 #: ckan/logic/auth/create.py:136
 #, python-format
 msgid "User %s not authorized to create organizations"
-msgstr "El usuario %s no está autorizado para crear organizaciones"
+msgstr "El usuario %s no está autorizado para crear departamentos"
 
 #: ckan/logic/auth/create.py:152
 msgid "User {user} not authorized to create users via the API"
@@ -1801,12 +1801,12 @@ msgstr "El usuario %s no está autorizado para borrar el grupo %s"
 #: ckan/logic/auth/delete.py:116
 #, python-format
 msgid "User %s not authorized to delete organizations"
-msgstr "El usuario %s no está autorizado para eliminar organizaciones"
+msgstr "El usuario %s no está autorizado para eliminar departamentos"
 
 #: ckan/logic/auth/delete.py:120
 #, python-format
 msgid "User %s not authorized to delete organization %s"
-msgstr "El usuario %s no está autorizado para eliminar la organización %s"
+msgstr "El usuario %s no está autorizado para eliminar el departamento %s"
 
 #: ckan/logic/auth/delete.py:133
 #, python-format
@@ -1855,7 +1855,7 @@ msgstr "El usuario %s no está autorizado para cambiar el estado del paquete %s"
 #: ckan/logic/auth/update.py:126
 #, python-format
 msgid "User %s not authorized to edit organization %s"
-msgstr "El usuario %s no está autorizado para editar la organización %s"
+msgstr "El usuario %s no está autorizado para editar el departamento %s"
 
 #: ckan/logic/auth/update.py:137 ckan/logic/auth/update.py:143
 msgid "Only the owner can update a related item"
@@ -2813,8 +2813,8 @@ msgid ""
 "datasets from groups</p> "
 msgstr ""
 "<p><strong>Administrador:</strong>Puede editar información del grupo, así"
-" como también administrar miembros de la "
-"organización.</p><p><strong>Miembro:</strong> Puede agregar/eliminar "
+" como también administrar miembros de el "
+"departamento.</p><p><strong>Miembro:</strong> Puede agregar/eliminar "
 "conjuntos de datos de grupos.</p>"
 
 #: ckan/templates/group/new.html:3 ckan/templates/group/new.html:5
@@ -3090,11 +3090,11 @@ msgstr "conjuntos de datos"
 
 #: ckan/templates/home/snippets/stats.html:16
 msgid "organization"
-msgstr "organización"
+msgstr "departamento"
 
 #: ckan/templates/home/snippets/stats.html:16
 msgid "organizations"
-msgstr "Organizaciones"
+msgstr "Departamentos"
 
 #: ckan/templates/home/snippets/stats.html:22
 msgid "group"
@@ -3155,7 +3155,7 @@ msgstr "Eliminar Carga"
 
 #: ckan/templates/organization/base_form_page.html:5
 msgid "Organization Form"
-msgstr "Formulario de la Organización"
+msgstr "Formulario del Departamento"
 
 #: ckan/templates/organization/bulk_process.html:3
 #: ckan/templates/organization/bulk_process.html:11
@@ -3199,30 +3199,30 @@ msgstr "Privado"
 
 #: ckan/templates/organization/bulk_process.html:88
 msgid "This organization has no datasets associated to it"
-msgstr "Esta organización no tiene conjuntos de datos asociados a ella"
+msgstr "Esta departamento tiene conjuntos de datos asociados a ella"
 
 #: ckan/templates/organization/confirm_delete.html:11
 msgid "Are you sure you want to delete organization - {name}?"
-msgstr "¿Está seguro de que desea eliminar la organización - {name}?"
+msgstr "¿Está seguro de que desea eliminar el departamento - {name}?"
 
 #: ckan/templates/organization/edit.html:6
 #: ckan/templates/organization/snippets/info.html:13
 #: ckan/templates/organization/snippets/info.html:16
 msgid "Edit Organization"
-msgstr "Editar Organización"
+msgstr "Editar Departamento"
 
 #: ckan/templates/organization/index.html:13
 #: ckan/templates/user/dashboard_organizations.html:7
 msgid "Add Organization"
-msgstr "Agregar Organización"
+msgstr "Agregar Departamento"
 
 #: ckan/templates/organization/index.html:20
 msgid "Search organizations..."
-msgstr "Buscar organizaciones"
+msgstr "Buscar departamentos"
 
 #: ckan/templates/organization/index.html:29
 msgid "There are currently no organizations for this site"
-msgstr "Actualmente no existen organizaciones para este sitio"
+msgstr "Actualmente no existen departamentos para este sitio"
 
 #: ckan/templates/organization/member_new.html:62
 msgid "Update Member"
@@ -3237,11 +3237,11 @@ msgid ""
 " but not add new datasets.</p> "
 msgstr ""
 "<p><strong>Administrador:</strong> Puede agregar/editar y eliminar "
-"conjuntos de datos, así como también administrar a los miembros de una "
-"organización.</p> <p><strong>Editor:</strong> Puede agregar y editar "
-"conjuntos de datos, pero no administrar a los miembros de una "
-"organización.</p> <p><strong>Miembro:</strong> Puede ver los conjuntos de"
-" datos privados de una organización, pero no agregar nuevos conjuntos de "
+"conjuntos de datos, así como también administrar a los miembros de un "
+"departamento.</p> <p><strong>Editor:</strong> Puede agregar y editar "
+"conjuntos de datos, pero no administrar a los miembros de un "
+"departamento.</p> <p><strong>Miembro:</strong> Puede ver los conjuntos de"
+" datos privados de un departamento, pero no agregar nuevos conjuntos de "
 "datos.</p>"
 
 #: ckan/templates/organization/new.html:3
@@ -3249,15 +3249,15 @@ msgstr ""
 #: ckan/templates/organization/new.html:7
 #: ckan/templates/organization/new.html:12
 msgid "Create an Organization"
-msgstr "Crear una Organización"
+msgstr "Crear un Departamento"
 
 #: ckan/templates/organization/new_organization_form.html:17
 msgid "Update Organization"
-msgstr "Actualizar Organización"
+msgstr "Actualizar Departamento"
 
 #: ckan/templates/organization/new_organization_form.html:19
 msgid "Create Organization"
-msgstr "Crear Organización"
+msgstr "Crear Departamento"
 
 #: ckan/templates/organization/read.html:5
 #: ckan/templates/package/search.html:16
@@ -3267,12 +3267,12 @@ msgstr "Agrega conjunto de datos"
 
 #: ckan/templates/organization/snippets/feeds.html:3
 msgid "Datasets in organization: {group}"
-msgstr "Conjuntos de datos en organización: {group}"
+msgstr "Conjuntos de datos en departamento: {group}"
 
 #: ckan/templates/organization/snippets/help.html:4
 #: ckan/templates/organization/snippets/helper.html:4
 msgid "What are Organizations?"
-msgstr "¿Qué son las Organizaciones?"
+msgstr "¿Qué son los Departamentos?"
 
 #: ckan/templates/organization/snippets/help.html:7
 msgid ""
@@ -3283,13 +3283,13 @@ msgid ""
 "its members, giving individual users the right to publish datasets from "
 "that particular organisation (e.g. Office of National Statistics).</p> "
 msgstr ""
-"<p>Las organizaciones actúan como departamentos de publicación para los "
+"<p>Los departamentos actúan como departamentos de publicación para los "
 "conjuntos de datos (por ejemplo, el Departamento de Salud). Esto "
 "significa que los conjuntos de datos pueden ser publicados por y "
 "pertenecer a un departamento en vez de a un usuario individual.</p> "
-"<p>Dentro de las organizaciones, los administradores asignan roles y "
+"<p>Dentro de los departamentos, los administradores asignan roles y "
 "autorizaciones para sus miembros, dándoles a los usuarios individuales el"
-" derecho a publicar conjuntos de datos de esa organización en particular "
+" derecho a publicar conjuntos de datos de ese departamento en particular "
 "(ej: Oficina Nacional de Estadísticas).</p>"
 
 #: ckan/templates/organization/snippets/helper.html:8
@@ -3298,14 +3298,14 @@ msgid ""
 " datasets. Users can have different roles within an Organization, "
 "depending on their level of authorisation to create, edit and publish. "
 msgstr ""
-"Las organizaciones en CKAN son usadas para crear, gestionar y publicar "
+"Los departamentos en CKAN son usadas para crear, gestionar y publicar "
 "colecciones de conjuntos de datos. Los usuarios pueden tener diferentes "
-"perfiles en una organización, dependiente de su nivel de autorización "
+"perfiles en un departamento, dependiente de su nivel de autorización "
 "para crear, editar y publicar"
 
 #: ckan/templates/organization/snippets/organization_form.html:10
 msgid "My Organization"
-msgstr "Mi Organización"
+msgstr "Mi Departamento"
 
 #: ckan/templates/organization/snippets/organization_form.html:18
 msgid "my-organization"
@@ -3313,20 +3313,20 @@ msgstr "mi-organizacion"
 
 #: ckan/templates/organization/snippets/organization_form.html:20
 msgid "A little information about my organization..."
-msgstr "Un poco de información acerca de mi organización..."
+msgstr "Un poco de información acerca de mi departamento..."
 
 #: ckan/templates/organization/snippets/organization_form.html:60
 msgid ""
 "Are you sure you want to delete this Organization? This will delete all "
 "the public and private datasets belonging to this organization."
 msgstr ""
-"¿Estás seguro de que quieres borrar esta Organización? Esto borrará los "
-"conjuntos de datos privados y públicos que pertenecen a esta "
-"organización."
+"¿Estás seguro de que quieres borrar este Departamento? Esto borrará los "
+"conjuntos de datos privados y públicos que pertenecen a este "
+"departamento."
 
 #: ckan/templates/organization/snippets/organization_form.html:64
 msgid "Save Organization"
-msgstr "Guardar Organización"
+msgstr "Guardar Departamento"
 
 #: ckan/templates/organization/snippets/organization_item.html:37
 #: ckan/templates/organization/snippets/organization_item.html:38
@@ -3761,11 +3761,11 @@ msgstr ""
 #: ckan/templates/package/snippets/package_basic_fields.html:69
 #: ckan/templates/snippets/organization.html:23
 msgid "Organization"
-msgstr "Organización"
+msgstr "Departamento"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:73
 msgid "No organization"
-msgstr "Sin organización"
+msgstr "Sin departamento"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:88
 msgid "Visibility"
@@ -4257,7 +4257,7 @@ msgstr ""
 
 #: ckan/templates/snippets/organization.html:48
 msgid "There is no description for this organization"
-msgstr "No existe una descripción para esta organización"
+msgstr "No existe una descripción para este departamento"
 
 #: ckan/templates/snippets/package_item.html:57
 msgid "This dataset has no description"
@@ -4340,22 +4340,22 @@ msgstr "No se han encontrado grupos"
 #: ckan/templates/snippets/search_result_text.html:27
 msgid "{number} organization found for \"{query}\""
 msgid_plural "{number} organizations found for \"{query}\""
-msgstr[0] "{number} organización encontrada para \"{query}\""
-msgstr[1] "{number} organizaciones encontradas para \"{query}\""
+msgstr[0] "{number} departamento para \"{query}\""
+msgstr[1] "{number} departamentos encontrados para \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:28
 msgid "No organizations found for \"{query}\""
-msgstr "Lo sentimos, no se encontraron organizaciones para \"{query}\""
+msgstr "Lo sentimos, no se encontraron departamentos para \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:29
 msgid "{number} organization found"
 msgid_plural "{number} organizations found"
-msgstr[0] "{number} organización encontrada"
-msgstr[1] "{number} organizaciones encontradas"
+msgstr[0] "{number} departamento encontrado"
+msgstr[1] "{number} departamentos encontrados"
 
 #: ckan/templates/snippets/search_result_text.html:30
 msgid "No organizations found"
-msgstr "Lo sentimos, no se encontraron organizaciones"
+msgstr "Lo sentimos, no se encontraron departamentos"
 
 #: ckan/templates/snippets/social.html:5
 msgid "Social"
@@ -4401,7 +4401,7 @@ msgstr "Mis Conjuntos de Datos"
 #: ckan/templates/user/dashboard.html:21
 #: ckan/templates/user/dashboard_organizations.html:12
 msgid "My Organizations"
-msgstr "Mis organizaciones"
+msgstr "Mis departamentos"
 
 #: ckan/templates/user/dashboard.html:22
 #: ckan/templates/user/dashboard_groups.html:12
@@ -4430,7 +4430,7 @@ msgstr "No eres miembro de ninguno de los grupos."
 
 #: ckan/templates/user/dashboard_organizations.html:20
 msgid "You are not a member of any organizations."
-msgstr "No eres miembro de ninguna de las organizaciones."
+msgstr "No eres miembro de ninguna de los departamentos."
 
 #: ckan/templates/user/edit.html:6 ckan/templates/user/edit_base.html:3
 #: ckan/templates/user/list.html:6 ckan/templates/user/list.html:13

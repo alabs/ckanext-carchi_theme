@@ -7808,11 +7808,9 @@ textarea{
 }
 
 .search-form .search-input.search-giant input{
-/*	font-size:16px;
-	padding:15px se quitó */
+	font-size:16px;
+	padding:15px;
 	
-	font-size:1px;
-	padding:12px
 }
 
 .search-form .search-input.search-giant button{

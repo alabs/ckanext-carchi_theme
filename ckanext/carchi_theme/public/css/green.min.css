@@ -10366,7 +10366,7 @@ iframe{
 }
 
 footer {
-	background-color: #75868c;
+	background-color: #666;
 	color: white;
 }
 
@@ -10375,7 +10375,7 @@ footer a {
 }
 
 .module-heading {
-	background-color: #75868c;
+	background-color: #666;
 	color: white;
 }
 
@@ -10384,11 +10384,11 @@ footer a {
 }
 
 .homepage .hero > .container .groups li.more a {
-	background-color: #75868c;
+	background-color: #666;
 }
 
 .account-masthead {
-	background-color: #75868c;
+	background-color: #666;
 }
 
 footer a:hover, footer a:focus {

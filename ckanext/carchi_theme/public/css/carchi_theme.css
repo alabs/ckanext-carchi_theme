@@ -36,7 +36,7 @@ body {
 
 .masthead {
 	min-height: 40px;
-  background: #b8c6cc; 
+  background: #999999; 
 }
 
 .masthead .nav-collapse {
@@ -215,7 +215,7 @@ footer #site_links .nav-list li a:hover{
 
 footer #site_links .nav-list li.active a{
 	color:#ea6e1f;
-	background-color:#b8c6cc
+	background-color:#999999
 }
 
 footer .footer_title{

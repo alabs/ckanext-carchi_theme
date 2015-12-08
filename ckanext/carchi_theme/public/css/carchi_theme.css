@@ -235,7 +235,6 @@ footer #banners .item{
 	margin-top:15px;
 	margin-bottom:10px;
 	text-align:left;
-	display:none /*Se ocultó para quitar los iconos del footer*/
 }
 
 footer #banners .item img{

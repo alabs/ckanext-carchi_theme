@@ -9112,7 +9112,7 @@ h1 small,h2 small,h3 small,h4 small{
 	*zoom:1;
 	min-height:55px;
 	color:#ffffff;
-	background:#666666 url("../../../base/images/bg.png")
+	background:#999 url("../../../base/images/bg.png")
 }
 
 .masthead:before,.masthead:after{
@@ -10362,7 +10362,7 @@ iframe{
 }
 
 .masthead {
-	background: #666 none repeat scroll 0% 0%
+	background: #999 none repeat scroll 0% 0%
 }
 
 footer {

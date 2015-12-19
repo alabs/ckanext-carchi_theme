@@ -210,7 +210,7 @@ footer #site_links .nav-list li a{
 footer #site_links .nav-list li a:hover{
 	background-color:transparent;
 	text-decoration:none;
-	color:#586175
+	font-weight: bold;
 }
 
 footer #site_links .nav-list li.active a{

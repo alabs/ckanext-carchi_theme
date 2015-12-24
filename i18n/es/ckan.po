@@ -70,11 +70,11 @@ msgstr "Etiqueta del logo del sitio"
 #: ckan/templates/organization/read_base.html:19
 #: ckan/templates/user/edit_user_form.html:15
 msgid "About"
-msgstr "Acerca de"
+msgstr "Qué es Datos Abiertos Carchi"
 
 #: ckan/controllers/admin.py:47
 msgid "About page text"
-msgstr "Texto de la página de Acerca de"
+msgstr "Texto de la página de Que es Datos Abiertos Carchi"
 
 #: ckan/controllers/admin.py:48
 msgid "Intro Text"
@@ -2367,7 +2367,7 @@ msgstr ""
 "del esquema principal de colores para obtener un tema personalizado "
 "funcionando rápidamente.</p> <p><strong>Logo de la Etiqueta del "
 "Sitio:</strong> Este es el logo que aparece en la cabecera de todas las "
-"plantillas de la instancia de CKAN.</p> <p><strong>Acerca de:</strong> "
+"plantillas de la instancia de CKAN.</p> <p><strong>Qué es Datos Abiertos Carchi:</strong> "
 "Este texto aparecerá en la página <a href=\"%(about_url)s\">acerca de</a>"
 " de esta instancia de CKAN.</p> <p><strong>Texto de "
 "Introducción:</strong> Este texto aparecerá en la <a "

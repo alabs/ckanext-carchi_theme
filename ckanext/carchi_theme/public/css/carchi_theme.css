@@ -260,17 +260,13 @@ footer #copyright .powered_by{
 	color: #FFF
 }
 
-footer #copyright .logo{
-	clear:both
-}
-
-footer #copyright .logo span{
-	display:none
-}
-
-footer #copyright .logo img{
+footer .logo{
 	clear:both;
-	display:none
+	text-align: center;
+}
+
+footer .social-buttons{
+	text-align: center;
 }
 
 @media (min-width: 1200px) {
